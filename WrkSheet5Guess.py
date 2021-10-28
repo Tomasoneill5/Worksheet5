@@ -27,6 +27,10 @@ while minNumberGuesses>count:
         break
     else:
         print('incorrect after', count,'guess(es)' )
+        if numGuess>randomChoice:
+            print('Guess too high')
+        else:
+            print('Guess too low')
 
         
 
